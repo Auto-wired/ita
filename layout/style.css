@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+#container {
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    margin: 20px 0;
+    display: flex;
+}
+
+nav {
+    width: 25%;
+    height: fit-content;
+}
+
+article {
+    width: 50%;
+    margin: 0 20px;
+}
+
+ul {
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+#container, header, footer, nav, article {
+    border: 1px solid #cccccc;
+}
+
+header, footer {
+    width: 100%;
+}
+
+#container {
+    padding: 20px;
+}
+
+header, footer, nav, article {
+    padding: 50px 30px;
+}
+
+article > p {
+    margin-top: 40px;
+}
