@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input::placeholder {
+    color: #bbbbbb;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    width: 160px;
+}
+
+header > img {
+    width: 100%;
+}
+
+#container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 12px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#login-form {
+    width: 100%;
+    margin-top: 40px;
+}
+
+#id, #password {
+    width: 100%;
+    height: 44px;
+    margin-top: 10px;
+    padding: 16px;
+    border: 1px solid #dddddd;
+}
+
+#login {
+    width: 100%;
+    height: 52px;
+    margin-top: 20px;
+    border: none;
+    font-size: 20px;
+    font-weight: lighter;
+    background-color: #03c75a;
+    color: #ffffff;
+}
+
+.check-button {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    border: 2px solid #cccccc;
+    border-radius: 100%;
+    background-color: transparent;
+    position: relative;
+}
+
+.check {
+    width: 12px;
+    height: 8px;
+    border: 2px solid #cccccc;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 4px;
+    left: 4px;
+}
+
+#login-option, #keep-login, #login-etc {
+    height: 16px;
+    display: flex;
+    align-items: center;
+}
+
+#login-option {
+    width: 100%;
+    margin: 20px 0;
+    justify-content: space-between;
+}
+
+.on {
+    font-weight: bold;
+    color: #03c75a;
+}
+
+.pillar {
+    width: 2px;
+    height: 100%;
+    margin: 0 8px;
+    border: 1px solid #dddddd;
+}
+
+#login-etc > button {
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    border: 1px solid #555555;
+    border-radius: 4px;
+    color: #555555;
+}
+
+.line {
+    width: 100%;
+    margin: 20px 0;
+    border: 1px solid #dddddd;
+    border-top: none;
+}
+
+#login-menu {
+    height: 16px;
+    display: flex;
+    align-items: center;
+    color: #555555;
+}
+
+footer {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+#guide, #copy {
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#copy {
+    margin-top: 10px;
+    gap: 8px;
+    font-size: 10px;
+}
+
+#copy > img {
+    width: 48px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#language {
+    width: 80px;
+    height: 24px;
+    padding-left: 8px;
+    border: 1px solid #dddddd;
+    font-size: 11px;
+    position: absolute;
+    top: -50px;
+    right: -150px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#login-notice {
+    width: 100%;
+    margin-top: 40px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e2eaf1;
+}
+
+#login-notice > p {
+    color: #555555;
+}
+
+.blue {
+    color: #1186f3;
+}
+
+.url-input {
+    width: 100%;
+    height: 32px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 8px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.rock {
+    width: 32px;
+    height: 32px;
+    margin-top: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.rock-circle {
+    width: 8px;
+    height: 16px;
+    border: 2px solid #03c75a;
+    border-radius: 20px;
+    position: absolute;
+    top: 4px;
+}
+
+.rock-square {
+    width: 12px;
+    height: 10px;
+    border: none;
+    position: absolute;
+    background-color: #03c75a;
+}
+
+.url-input > .first {
+    height: 24px;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.url-input > .second {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.background {
+    padding: 2px;
+    background-color: #e2eaf1;
+}
+
+.red-square {
+    border: 2px solid #ff0000;
+    position: absolute;
+}
+
+.red-square:nth-of-type(2) {
+    width: 32px;
+    height: 32px;
+    left: 10px;
+}
+
+.red-square:nth-of-type(3) {
+    width: 140px;
+    height: 32px;
+    left: 140px;
+}
+
+.disposable-login {
+    position: relative;
+}
+
+.disposable-login > .notice {
+    padding: 4px;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    gap: 4px;
+    position: absolute;
+    top: 24px;
+    left: -100px;
+    white-space: nowrap;
+    color: #ffffff;
+    background-color: #52aeec;
+    z-index: 2;
+}
+
+.disposable-login > .notice > .square {
+    width: 12px;
+    height: 12px;
+    border: none;
+    position: absolute;
+    top: -4px;
+    right: 40px;
+    transform: rotate(45deg);
+    background-color: #52aeec;
+    z-index: -1;
+}
+
+.yellow {
+    color: #fffb00;
+}
