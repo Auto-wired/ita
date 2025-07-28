@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+#container > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+}
+
+.a, .b, .c {
+    width: 100%;
+}
+
+.a {
+    background-color: #ee8080;
+}
+
+.b {
+    background-color: #80ee80;
+}
+
+.c {
+    background-color: #8080ee;
+}
