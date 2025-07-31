@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Youtube</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div id="container">
+
+        <!-- header -->
+        <header>
+            <div id="logo">
+                <i class="fa-brands fa-youtube"></i>
+                <h3>Youtube</h3>
+            </div>
+            <div id="top-menu">
+                <button id="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                <button class="dots">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </button>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- video -->
+        <article id="video">
+            <video src="./videos/main.mp4" controls></video>
+        </article>
+        <!-- video -->
+
+        <!-- section -->
+        <section>
+
+            <!-- info -->
+            <article id="info">
+                <div id="hashtag">
+                    <p>#고양이</p>
+                    <p>#Cat</p>
+                    <p>#야옹</p>
+                </div>
+                <div id="video-title">
+                    <h5 id="title" class="clamp">이 고양이는 한국에서 최초로 시작되어 일년에 365번씩 이 고양이를 보는 사람에게 행운을 주었고 지금은 당신에게로 옮겨진 이 고양이는 7일 안에 당신 곁을 떠날것입니다. 이 고양이를 포함해서 7통을 행운이 필요한 사람에게 보여주어야 합니다. 사진을 찍어 공유를 해도 좋습니다. 혹 미신이라 하실지 모르지만 사실입니다.</h5>
+                    <button id="title-dropdown" class="dropdown">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                </div>
+                <p class="mini-info">130M views 1 month ago</p>
+                <div id="menu">
+                    <div class="good">
+                        <button id="thumb-up">
+                            <i class="fa-solid fa-thumbs-up"></i>
+                        </button>
+                        <p id="thumb-up-count"></p>
+                    </div>
+                    <div class="bad">
+                        <button id="thumb-down">
+                            <i class="fa-solid fa-thumbs-down"></i>
+                        </button>
+                        <p id="thumb-down-count"></p>
+                    </div>
+                    <div class="share">
+                        <button>
+                            <i class="fa-solid fa-share"></i>
+                        </button>
+                        <p>Share</p>
+                    </div>
+                    <div class="save">
+                        <button>
+                            <i class="fa-solid fa-plus"></i>
+                        </button>
+                        <p>Save</p>
+                    </div>
+                    <div class="report">
+                        <button>
+                            <i class="fa-solid fa-flag"></i>
+                        </button>
+                        <p>Report</p>
+                    </div>
+                </div>
+                <div id="account">
+                    <div id="profile">
+                        <img src="./images/2.png" alt="profile">
+                        <div id="nickname">
+                            <h5>버터가 날면 버터플라이</h5>
+                            <p class="mini-info">100M subcribers</p>
+                        </div>
+                    </div>
+                    <button id="subscribe">SUBSCRIBE</button>
+                </div>
+            </article>
+            <!-- info -->
+
+            <!-- related-videos -->
+            <article id="related-videos">
+                <p>Up next</p>
+                <div class="related-video">
+                    <img class="thumbnail" src="./images/1.png" alt="thumbnail1">
+                    <div class="related-video-info">
+                        <h5>자다 깬 버터</h5>
+                        <p>버터가 날면 버터플라이</p>
+                        <p>99M views</p>
+                    </div>
+                    <button class="dots">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </button>
+                </div>
+                <div class="related-video">
+                    <img class="thumbnail" src="./images/2.png" alt="thumbnail2">
+                    <div class="related-video-info">
+                        <h5>초롱초롱한 버터</h5>
+                        <p>버터가 날면 버터플라이</p>
+                        <p>90M views</p>
+                    </div>
+                    <button class="dots">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </button>
+                </div>
+                <div class="related-video">
+                    <img class="thumbnail" src="./images/3.png" alt="thumbnail3">
+                    <div class="related-video-info">
+                        <h5>Zzz 버터</h5>
+                        <p>버터가 날면 버터플라이</p>
+                        <p>106M views</p>
+                    </div>
+                    <button class="dots">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                    </button>
+                </div>
+            </article>
+            <!-- related-videos -->
+
+        </section>
+        <!-- section -->
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
